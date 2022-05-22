@@ -1,0 +1,95 @@
+
+.areas{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    .area {
+      margin-top: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 500px;
+      height: 420px;
+      border: 1px solid black;
+      .area-top {
+        width: 60px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+    }
+}
+.direction{
+    display: flex;
+    justify-content: center;
+    .buttons{
+        margin-top: 3%;
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        .first-buttons{
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+            .top-left{
+                border: 1px solid black;
+                width: 24px;
+                height: 18px;
+                margin-top: 50%;
+            }
+            .top{
+                border: 1px solid black;
+                width: 19px;
+                height: 30px;
+            }
+            .top-right{
+                border: 1px solid black;
+                width: 24px;
+                height: 18px;
+                margin-top: 50%;
+            }
+        }
+        .second-buttons{
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .left{
+                border: 1px solid black;
+                width: 35px;
+                height: 20px;
+            }
+            .center{
+                border: 1px solid black;
+                width: 15px;
+                height: 15px;
+            }
+            .right{
+                border: 1px solid black;
+                width: 35px;
+                height: 20px;
+            }
+        }
+        .thrid-buttons{
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;
+            .bottom-left{
+                border: 1px solid black;
+                width: 24px;
+                height: 18px;
+            }
+            .bottom{
+                border: 1px solid black;
+                width: 19px;
+                height: 30px;
+            }
+            .bottom-right{
+                border: 1px solid black;
+                width: 24px;
+                height: 18px;
+            }
+        }
+    }
+}
+

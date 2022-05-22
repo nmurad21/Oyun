@@ -1,0 +1,150 @@
+.value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2%;
+}
+
+.areas {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.areas .area {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  height: 420px;
+  border: 1px solid black;
+}
+
+.areas .area .area-top {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.direction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.direction .buttons {
+  margin-top: 3%;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.direction .buttons .first-buttons {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.direction .buttons .first-buttons .top-left {
+  border: 1px solid black;
+  width: 24px;
+  height: 18px;
+  margin-top: 50%;
+}
+
+.direction .buttons .first-buttons .top {
+  border: 1px solid black;
+  width: 19px;
+  height: 30px;
+}
+
+.direction .buttons .first-buttons .top-right {
+  border: 1px solid black;
+  width: 24px;
+  height: 18px;
+  margin-top: 50%;
+}
+
+.direction .buttons .second-buttons {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.direction .buttons .second-buttons .left {
+  border: 1px solid black;
+  width: 35px;
+  height: 20px;
+}
+
+.direction .buttons .second-buttons .center {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+}
+
+.direction .buttons .second-buttons .right {
+  border: 1px solid black;
+  width: 35px;
+  height: 20px;
+}
+
+.direction .buttons .thrid-buttons {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.direction .buttons .thrid-buttons .bottom-left {
+  border: 1px solid black;
+  width: 24px;
+  height: 18px;
+}
+
+.direction .buttons .thrid-buttons .bottom {
+  border: 1px solid black;
+  width: 19px;
+  height: 30px;
+}
+
+.direction .buttons .thrid-buttons .bottom-right {
+  border: 1px solid black;
+  width: 24px;
+  height: 18px;
+}
